@@ -1,0 +1,39 @@
+.number-button {
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    background-color: #D2D2D2;
+}
+.number-button a {
+    text-decoration: none;
+    color: black;
+    font-size: 3.5rem;
+    line-height: 55px;
+    display: block;
+    padding-top: 5px;
+    text-align: center;
+}
+.number-button span {
+    font-size: 1rem;
+    display: block;
+    line-height: 30px;
+}
+.call {
+    background-color: #14D43A;
+    color: white;
+}
+.call i{
+    color: white;
+    font-size: 2.5rem;
+}
+.end-call {
+    background-color: red;
+    border-radius: 1.5rem;
+    color: white;
+}
+.end-call i {
+    margin-right: 10px;
+}
+iframe {
+    height: 90%;
+}
