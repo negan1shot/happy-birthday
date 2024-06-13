@@ -1,106 +1,157 @@
 
+
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Bootstrap demo</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    
-        <style>
-            .number-button a, .number-button span {
-                text-decoration: none;
-                color: black;
-                font-size: 4rem;
-                height: 100px;
-                line-height: 100px;
-                display: block;
-                text-align: center;
-            }
-        </style>
-    </head>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
 
-    <body>
-        <main>
-        
-            <div class="album py-5 bg-light">
-                <div class="container">
-        
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button number-button">
-                               <a href="#">1</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">2</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">3</a>
-                            </div>
-                        </div>
+    <style>
+        .number-button {
+            border-radius: 50%;
+            background-color: #D2D2D2;
+        }
+        .number-button a {
+            text-decoration: none;
+            color: black;
+            font-size: 4rem;
+            height: 100px;
+            line-height: 60px;
+            display: block;
+            padding-top: 5px;
+            text-align: center;
+        }
+        .number-button span {
+            font-size: 1rem;
+            display: block;
+            line-height: 30px;
+        }
+        .call {
+            background-color: #14D43A;
+            color: white;
+        }
+        .call i{
+            color: white;
+            font-size: 2.5rem;
+        }
+    </style>
+</head>
+
+<body>
+<main>
+
+    <div class="bg-light">
+        <div class="container">
+
+            <header class="mb-3">
+                <div class="row">
+                    <div class="col-4">
+                        <i class="bi bi-reception-3"></i>
+                        <span>Tom</span>
+                        <i class="bi bi-wifi"></i>
                     </div>
-        
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">4</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">5</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">6</a>
-                            </div>
-                        </div>
+
+                    <div class="col-4 text-center">
+                        14:02
                     </div>
-        
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">7</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">8</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">9</a>
-                            </div>
-                        </div>
+
+                    <div class="col-4 text-end">
+                        <i class="bi bi-alarm-fill"></i>
+                        <i class="bi bi-battery-full"></i>
                     </div>
-        
-                    <div class="row">
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <span>*</span>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <a href="#">0</a>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="card mb-4 box-shadow number-button">
-                                <span>#</span>
-                            </div>
-                        </div>
+                </div>
+            </header>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button number-button alone">
+                        <a href="#">1</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">2<span class="letters">ABC</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">3<span class="letters">DEF</span></a>
                     </div>
                 </div>
             </div>
-        
-        </main>
-    
-    </body>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">4<span class="letters">GHI</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">5<span class="letters">JKL</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">6<span class="letters">MNO</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">7<span class="letters">PQRS</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">8<span class="letters">TUV</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">5<span class="letters">WXYZ</span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">*<span class="letters"></span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#">0<span class="letters">+</span></a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button">
+                        <a href="#"><i class="bi bi-hash"></i><span class="letters"></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <div class="card mb-4 box-shadow number-button call">
+                        <a href="#">
+                            <i class="bi bi-telephone-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-4"></div>
+            </div>
+        </div>
+    </div>
+
+</main>
+
+</body>
 </html>
