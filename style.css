@@ -2,6 +2,10 @@ header {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0.5rem 1rem;
 }
+.bg-black header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
 .end-call {
     background-color: red;
     border-radius: 1.5rem;
