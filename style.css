@@ -13,4 +13,12 @@ header {
 iframe {
     height: 100%;
 }
-
+video {
+    width: 100%;
+}
+.mini-text {
+    font-size: 0.7rem;
+}
+.battery {
+    padding-left: 5px;
+}
