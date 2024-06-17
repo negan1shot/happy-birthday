@@ -66,12 +66,12 @@ header {
     font-size: 1.5rem;
     padding-bottom: 0.2rem;
 }
-.sharp {
+.sharp a{
     font-size: 3.5rem;
     line-height: 4rem;
     text-align: center;
 }
-.star {
+.star a{
     font-size: 5.2rem;
     padding-top: 1.1rem;
     line-height: 4rem;
