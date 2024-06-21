@@ -2,6 +2,11 @@ header {
     background-color: rgba(255, 255, 255, 0.7);
     padding: 0.5rem 1rem;
 }
+h1 {
+    font-size: 1.1rem;
+    line-height: 1.2rem;
+    margin-top: 10px;
+}
 .bg-black header {
     background-color: rgba(0, 0, 0, 0.7);
     color: white;
