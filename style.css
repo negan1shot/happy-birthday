@@ -4,8 +4,7 @@ header {
 }
 h1 {
     font-size: 1rem;
-    line-height: 1.2rem;
-    margin-top: 10px;
+    line-height: 1rem;
 }
 .bg-black header {
     background-color: rgba(0, 0, 0, 0.7);
